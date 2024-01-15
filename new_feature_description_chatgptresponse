@@ -1,4 +1,4 @@
-It sounds like you want to clarify the process of integrating OpenAI's GPT #// API with Eleven Labs' voice generation APIo update a variable or data structure. Here's a breakdown of the steps:
+Here's a breakdown of the steps:
 
 1. User Input: Users provide some text as input.
 2. Text API Request: You make an API request to OpenAI's GPT API using the user's input text. This request generates a response from GPT based on the input text.
@@ -23,4 +23,4 @@ Here's a high-level overview of how this can be done:
 2. When the gptResponse variable is updated (i.e., when a new GPT response is received), the event listener or callback function should trigger the API call to Eleven Labs, passing the updated gptResponse data as input.
 3. The API call to Eleven Labs should then use the latest gptResponse data to generate the voice output without manual intervention, making the process automatic and seamless.
 
-By implementing this approach, you can ensure that Eleven Labs' voice generation API is automatically triggered as soon as the gptResponse variable is updated, allowing for real-time integration between GPT responses and voice generation in your application.
+By implementing this approach, you can ensure that Eleven Labs' voice generation API is automatically triggered as soon as the gptResponse variable is updated, allowing for real-time integration between GPT responses and voice generation in this application.
